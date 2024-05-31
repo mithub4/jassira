@@ -13,3 +13,7 @@ li {
     display: inline;
     margin-right: 10px; /* Add space between list items */
 }
+
+.header {
+    text-align: center;
+}
