@@ -11,7 +11,7 @@ ul {
 
 li {
     display: inline;
-    margin-right: 10px; /* Add space between list items */
+    margin-right: 20px; /* Add space between list items */
 }
 
 .header {
