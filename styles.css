@@ -2,6 +2,6 @@ body {
     background: #FFFAF5;
 }
 
-li {
-    list-style: none;
+ul {
+    list-style-type: none;
 }
