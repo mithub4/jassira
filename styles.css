@@ -12,11 +12,13 @@ ul {
 
 li {
     display: inline;
-    margin-right: 20px; /* Add space between list items */
+    margin-right: 25px; /* Add space between list items */
+
 }
 
 li a {
     text-decoration: none;
+    color: black;
 }
 
 .header {
