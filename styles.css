@@ -15,6 +15,10 @@ li {
     margin-right: 20px; /* Add space between list items */
 }
 
+li a {
+    text-decoration: none;
+}
+
 .header {
     margin-top: 40px;
     text-align: center;
