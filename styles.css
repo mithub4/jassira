@@ -17,11 +17,15 @@ li {
 
 li a {
     text-decoration: none;
-    color: #764C97;
+    color: black;
 }
 
-.title a {
+title a {
     text-decoration: none;
+    color: black;
+}
+
+a:hover {
     color: #764C97;
 }
 
