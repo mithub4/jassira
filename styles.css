@@ -22,10 +22,10 @@ body {
 .image-container {
     display: flex;
     flex-direction: column;
-    margin-right: 160px;
-    margin-left: 160px;
-    margin-bottom: 40px;
-    margin-top: 80px;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 80px;
+    margin-top: 40px;
   }
   
   .row {
@@ -34,10 +34,11 @@ body {
   
   .image {
     flex: 1;
-    height: 300px; /* Adjust height as needed */
+    height: 200px; /* Adjust height as needed */
     background-size: cover;
     transition: background-image 0.3s ease-in-out;
     cursor: pointer;
+    margin: 5px;
   }
   
   #image1 {
