@@ -21,51 +21,69 @@ body {
 
 .image-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Set the container height for demonstration */
-}
-
-.image {
-    width: 200px;
-    height: 200px;
+    flex-direction: column;
+    margin-right: 160px;
+    margin-left: 160px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .image {
+    flex: 1;
+    height: 300px; /* Adjust height as needed */
     background-size: cover;
     transition: background-image 0.3s ease-in-out;
-    cursor: pointer; /* Add cursor pointer to indicate hover effect */
+    cursor: pointer;
+  }
+  
+  #image1 {
+    background-image: url('landing/land1.jpg');
+  }
+
+  #image1:hover {
+    background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); /* Image to show on hover */
 }
   
-#image1 {
+  #image2 {
     background-image: url('landing/land1.jpg');
-}
+  }
 
-#image1:hover {
+  #image2:hover {
+    background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); /* Image to show on hover */
+}
+  
+  #image3 {
+    background-image: url('landing/land1.jpg');
+  }
+
+  #image3:hover {
+    background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); /* Image to show on hover */
+}
+  
+#image4 {
+    background-image: url('landing/land1.jpg');
+  }
+
+  #image4:hover {
     background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); /* Image to show on hover */
 }
 
-#image2 {
-    background-image: url('landing/land2.jpg');
-}
-
-#image2:hover {
-    background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center')
-}
-
-#image3 {
-    background-image: url('image3.jpg');
-}
-
-#image3:hover {
-    background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center')
-}
-
-#image4 {
-    background-image: url('image4.jpg');
-}
-
 #image5 {
-    background-image: url('image5.jpg');
-}
+    background-image: url('landing/land1.jpg');
+  }
 
+  #image5:hover {
+    background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); /* Image to show on hover */
+}
+  
 #image6 {
-    background-image: url('image6.jpg');
+    background-image: url('landing/land1.jpg');
+  }
+
+  #image6:hover {
+    background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); /* Image to show on hover */
 }
