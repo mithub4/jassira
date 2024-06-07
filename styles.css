@@ -28,11 +28,11 @@ body {
     margin-top: 40px;
   }
   
-  .row {
+.row {
     display: flex;
-  }
+}
   
-  .image {
+.image {
     flex: 1;
     width: 15vw; /* Set width to 30% of viewport width */
     height: 15vw; /* Set height to match width */
@@ -42,55 +42,60 @@ body {
     transition: background-image 0.3s ease-in-out;
     cursor: pointer;
     margin: 5px;
-  }
+}
 
-  #image1 {
+.row a {
+    text-align: center;
+    font-size: 1.25vw;
+}
+
+#image1 {
     background-image: url('landing/land1.jpg');
-  }
-  
-  #image1:hover {
+}
+
+#image1:hover {
     background-image: url('landing/land2.jpg'); /* Image to show on hover */
-  }
-  
-  #image2 {
+}
+
+#image2 {
     background-image: url('landing/land1.jpg');
-  }
-  
-  #image2:hover {
+}
+
+#image2:hover {
     background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); /* Image to show on hover */
-  }
-  
-  #image3 {
+}
+
+#image3 {
     background-image: url('landing/land1.jpg');
-  }
-  
-  #image3:hover {
+}
+
+#image3:hover {
     background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); /* Image to show on hover */
-  }
-  
-  #image4 {
+}
+
+#image4 {
     background-image: url('landing/land1.jpg');
-  }
-  
-  #image4:hover {
+}
+
+#image4:hover {
     background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); /* Image to show on hover */
-  }
-  
-  #image5 {
+}
+
+#image5 {
     background-image: url('landing/land1.jpg');
-  }
-  
-  #image5:hover {
+}
+
+#image5:hover {
     background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); /* Image to show on hover */
-  }
-  
-  #image6 {
+}
+
+#image6 {
     background-image: url('landing/land1.jpg');
-  }
-  
-  #image6:hover {
+}
+
+#image6:hover {
     background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); /* Image to show on hover */
-  }
+}
 
 .footer {
     font-size: 1vw;
