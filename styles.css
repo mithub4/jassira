@@ -56,11 +56,11 @@ body {
 }
 
 #image1:hover {
-    background-image: url('landing/land2.JPG'); 
+    background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); 
 }
 
 #image2 {
-    background-image: url('landing/land1.jpg');
+    background-image: url('landing/land4.JPG');
 }
 
 #image2:hover {
@@ -68,7 +68,7 @@ body {
 }
 
 #image3 {
-    background-image: url('landing/land1.jpg');
+    background-image: url('landing/land3.jpg');
 }
 
 #image3:hover {
@@ -76,7 +76,7 @@ body {
 }
 
 #image4 {
-    background-image: url('landing/land1.jpg');
+    background-image: url('landing/land2.jpg');
 }
 
 #image4:hover {
@@ -84,7 +84,7 @@ body {
 }
 
 #image5 {
-    background-image: url('landing/land1.jpg');
+    background-image: url('landing/land5.jpg');
 }
 
 #image5:hover {
@@ -92,7 +92,7 @@ body {
 }
 
 #image6 {
-    background-image: url('landing/land1.jpg');
+    background-image: url('landing/land6.jpg');
 }
 
 #image6:hover {
