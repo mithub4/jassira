@@ -26,7 +26,8 @@ body {
     align-items: center;
     margin-bottom: 50px;
     margin-top: 40px;
-  }
+
+}
   
 .row {
     display: flex;
@@ -41,12 +42,13 @@ body {
     background-size: cover;
     transition: background-image 0.3s ease-in-out;
     cursor: pointer;
-    margin: 5px;
+    margin: 10px;
 }
 
 .row a {
+    margin-bottom: 2.5px;
     text-align: center;
-    font-size: 1.25vw;
+    font-size: 1vw;
 }
 
 #image1 {
