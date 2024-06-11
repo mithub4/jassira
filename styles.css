@@ -56,7 +56,7 @@ body {
 }
 
 #image1:hover {
-    background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); 
+    background-image: url('landing/hover1.jpg'); 
 }
 
 #image2 {
@@ -64,7 +64,7 @@ body {
 }
 
 #image2:hover {
-    background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); /* Image to show on hover */
+    background-image: url('landing/hover2.jpg'); /* Image to show on hover */
 }
 
 #image3 {
@@ -72,7 +72,7 @@ body {
 }
 
 #image3:hover {
-    background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); /* Image to show on hover */
+    background-image: url('landing/hover3.jpg'); /* Image to show on hover */
 }
 
 #image4 {
@@ -80,23 +80,23 @@ body {
 }
 
 #image4:hover {
-    background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); /* Image to show on hover */
+    background-image: url('landing/hover4.jpg'); /* Image to show on hover */
 }
 
 #image5 {
-    background-image: url('landing/land5.jpg');
-}
-
-#image5:hover {
-    background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); /* Image to show on hover */
-}
-
-#image6 {
     background-image: url('landing/land6.jpg');
 }
 
+#image5:hover {
+    background-image: url('landing/hover5.jpg'); /* Image to show on hover */
+}
+
+#image6 {
+    background-image: url('landing/land5.jpg');
+}
+
 #image6:hover {
-    background-image: url('https://video-images.vice.com//products/62f52c45bdc7f10097ccbdea/gallery-image/1660234822649-screen-shot-2022-08-11-at-122009-pm.png?crop=0.5779109589041096xw:1xh;center,center'); /* Image to show on hover */
+    background-image: url('landing/hover6.jpg'); /* Image to show on hover */
 }
 
 .footer {
