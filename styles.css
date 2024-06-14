@@ -30,7 +30,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     margin-top: 40px;
 }
   
@@ -51,7 +51,7 @@ body {
 }
 
 .row a {
-    margin-bottom: 2.5px;
+    margin-bottom: 25px;
     text-align: center;
     font-size: 1.25vw;
 }
@@ -150,7 +150,7 @@ body {
 }
 
 .dropdown-content {
-    margin-top: 2.5px;
+    margin-top: 5px;
     display: none;
     position: absolute;
     min-width: 160px;
@@ -160,8 +160,9 @@ body {
 }
 
 .dropdown-content a {
+    background-color: #BD9BD8;
     display: block;
-    color: #333; /* Change text color */
+    color: white; /* Change text color */
     padding: 1vw;
     margin-right: 90px;
     margin-left: -1.75px;
@@ -169,8 +170,7 @@ body {
 }
 
 .dropdown-content a:hover {
-    border-radius: 2vw;
-    background-color: #B8A3C1;
+    background-color: #764C97;
     color: white; /* Change text color on hover */
 }
 
@@ -193,8 +193,48 @@ body {
     height: auto;
 }
 
+.gallery img:hover {
+    box-shadow: 0 0 20px rgba(33,33,33,0.40); 
+}
+
 @media screen and (min-width: 768px) {
     .gallery {
         grid-template-columns: repeat(4, 1fr);
     }
+}
+
+/* LIGHTBOX CSS */
+
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    text-align: center;
+}
+
+.lightbox-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.close {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #ccc;
 }
