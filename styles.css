@@ -163,16 +163,38 @@ body {
     display: block;
     color: #333; /* Change text color */
     padding: 1vw;
+    margin-right: 90px;
     margin-left: -1.75px;
     text-decoration: none;
 }
 
 .dropdown-content a:hover {
-    border-radius: 25px;
+    border-radius: 2vw;
     background-color: #B8A3C1;
     color: white; /* Change text color on hover */
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.gallery {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
