@@ -5,7 +5,7 @@ body {
 }
 
 .title {
-    margin-top: 5vw;
+    margin-top: 4vw;
     text-align: center;
 }
 
@@ -19,6 +19,12 @@ body {
     color: #764C97;
 }
 
+.footer {
+    font-size: 1vw;
+    margin-bottom: 3vw;
+    text-align: center;
+}
+
 .image-container {
     display: flex;
     flex-direction: column;
@@ -26,7 +32,6 @@ body {
     align-items: center;
     margin-bottom: 50px;
     margin-top: 40px;
-
 }
   
 .row {
@@ -48,7 +53,7 @@ body {
 .row a {
     margin-bottom: 2.5px;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.25vw;
 }
 
 #image1 {
@@ -99,7 +104,75 @@ body {
     background-image: url('landing/hover6.jpg'); /* Image to show on hover */
 }
 
-.footer {
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.indtitle {
+    margin-top: 3vw;
+    margin-left: 5%;
+}
+
+.indtitle a {
+    text-decoration: none;
+    font-size: 3vw; /* Set font size to 5% of viewport width */
+    color: #1E1E1E;
+}
+
+.indtitle a:hover {
+    color: #764C97;
+}
+
+.indfooter {
+    text-align: center;
     font-size: 1vw;
     margin-bottom: 5vw;
+}
+
+.navbar {
+    display: flex;
+    align-items: center; /* Align navbar items vertically */
+    margin-top: 5vw;
+    margin-right: 5%;
+}
+
+.navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.25vw; /* Set font size to 1.5% of viewport width */
+    color: #1E1E1E;
+}
+
+.navbar a:hover {
+    color: #764C97;
+}
+
+.dropdown-content {
+    margin-top: 2.5px;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    text-align: left;
+    /* border: 1px solid #ccc; /* Add border */
+}
+
+.dropdown-content a {
+    display: block;
+    color: #333; /* Change text color */
+    padding: 1vw;
+    margin-left: -1.75px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    border-radius: 25px;
+    background-color: #B8A3C1;
+    color: white; /* Change text color on hover */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
