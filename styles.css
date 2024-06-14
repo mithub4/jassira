@@ -178,45 +178,71 @@ body {
     display: block;
 }
 
-.gallery {
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 10px;
+/* Style the rows and columns */
+.rows {
+    margin-top: 2.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
 }
 
-.gallery img {
-    width: 100%;
-    height: auto;
+.columns {
+    flex: 1;
+    padding: 10px;
 }
 
-.gallery img:hover {
-    box-shadow: 0 0 20px rgba(33,33,33,0.40); 
+.columns img {
+    margin-bottom: 10px;
+    max-width: 100%; /* Ensure image doesn't exceed the width of its container */
+    max-height: 100vh; /* Scale image to fit the height of the viewport */
 }
 
-@media screen and (min-width: 768px) {
-    .gallery {
-        grid-template-columns: repeat(4, 1fr);
-    }
+.columns img:hover {
+    box-shadow: 0px 0px 15px rgba(3,3,3,0.25); /* Add shadow to dropdown */
 }
-
-/* LIGHTBOX CSS */
-
+/* Style the lightbox */
 .lightbox {
     display: none;
     position: fixed;
-    top: 0;
+    z-index: 1;
+    padding-top: 100px;
     left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 9999;
-    text-align: center;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
+/* Style the close button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Style the lightbox content (image) */
+
+.lightbox img {
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+/* Style the lightbox content (image) */
 .lightbox-content {
     position: fixed;
     top: 50%;
@@ -224,17 +250,4 @@ body {
     transform: translate(-50%, -50%);
     max-width: 90%;
     max-height: 90%;
-}
-
-.close {
-    color: #fff;
-    font-size: 30px;
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    cursor: pointer;
-}
-
-.close:hover {
-    color: #ccc;
 }

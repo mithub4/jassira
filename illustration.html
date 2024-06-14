@@ -35,26 +35,44 @@
 
     </div>    
 
-    
-    <div class="gallery">
-        <img src="illustrations/01_JD2021,monochromeportrait1.JPG">
-        <img src="illustrations/02_JD2021,monochromeportrait2.JPG">
-        <img src="illustrations/04_JD2022_mominjamaica.JPG">
-        <img src="illustrations/05_JD2022_Self Portrait.jpg">
+    <h1>Illustrations</h1>
 
-        <!-- Add more images as needed -->
+    <div class="rows">
+        <div class="columns">
+            <img src="illustrations/01_JD2021,monochromeportrait1.JPG" onclick="openLightbox('illustrations/01_JD2021,monochromeportrait1.JPG');">
+            <img src="illustrations/02_JD2021,monochromeportrait2.JPG" onclick="openLightbox('illustrations/02_JD2021,monochromeportrait2.JPG');">
+            <img src="illustrations/04_JD2022_mominjamaica.JPG" onclick="openLightbox('illustrations/04_JD2022_mominjamaica.JPG');">
+            <img src="illustrations/05_JD2022_Self Portrait.jpg" onclick="openLightbox('illustrations/05_JD2022_Self Portrait.jpg');">
+        </div>
+        <div class="columns">
+            <img src="illustrations/780ECDC4-60AE-4446-9991-865633AA1B02.jpg" onclick="openLightbox('illustrations/780ECDC4-60AE-4446-9991-865633AA1B02.jpg');">
+            <img src="illustrations/20210408_161945705_001.jpg" onclick="openLightbox('illustrations/20210408_161945705_001.jpg');">
+            <img src="illustrations/clover drawings.png" onclick="openLightbox('illustrations/clover drawings.png');">
+            <img src="illustrations/digital painting-fairy.png" onclick="openLightbox('illustrations/digital painting-fairy.png');">
+        </div>
+        <div class="columns">
+            <img src="illustrations/IMG_1040 (2021_10_15 17_19_51 UTC).jpg" onclick="openLightbox('illustrations/IMG_1040 (2021_10_15 17_19_51 UTC).jpg');">
+            <img src="illustrations/IMG_1076.JPG" onclick="openLightbox('illustrations/IMG_1076.JPG');">
+            <img src="illustrations/IMG_1077.JPG" onclick="openLightbox('illustrations/IMG_1077.JPG');">
+        </div>
+        <div class="columns">
+            <img src="illustrations/IMG_1040 (2021_10_15 17_19_51 UTC).jpg" onclick="openLightbox('illustrations/IMG_1040 (2021_10_15 17_19_51 UTC).jpg');">
+            <img src="illustrations/IMG_1076.JPG" onclick="openLightbox('illustrations/IMG_1076.JPG');">
+            <img src="illustrations/IMG_1077.JPG" onclick="openLightbox('illustrations/IMG_1077.JPG');">
+        </div>
     </div>
     
-    <div class="lightbox" id="lightbox">
-        <span class="close" id="close">&times;</span>
-        <img class="lightbox-content" id="lightbox-img" src="">
-    </div>
+    <!-- The Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img id="lightboxImg" class="lightbox-content">
+  </div>
+
+   <script src="script.js"></script>
 
     <div class = "indfooter">
         <p>© jassira de almeida 2024</p>
     </div>
-
-    <script src="script.js"></script>
     
 </body>
 </html>
