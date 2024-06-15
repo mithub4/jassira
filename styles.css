@@ -21,7 +21,7 @@ body {
 
 .footer {
     font-size: 1vw;
-    margin-bottom: 3vw;
+    margin-bottom: 4vw;
     text-align: center;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .row a {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     text-align: center;
     font-size: 1.25vw;
 }
@@ -179,18 +179,16 @@ body {
 }
 
 .indheader {
-    color: #764C97;
-    font-size: 3vw;
+    font-size: 4vw;
     text-align: center;
-    margin-top: 3vw;
     margin-left: 5%;
 }
 
 /* Style the rows and columns */
 .rows {
-    margin-top: 2.5vw;
     margin-left: 5vw;
     margin-right: 5vw;
+    margin-bottom: 5vw;
     display: flex;
 }
 
