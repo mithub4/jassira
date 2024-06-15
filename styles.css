@@ -178,6 +178,14 @@ body {
     display: block;
 }
 
+.indheader {
+    color: #764C97;
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 3vw;
+    margin-left: 5%;
+}
+
 /* Style the rows and columns */
 .rows {
     margin-top: 2.5vw;
