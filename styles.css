@@ -127,7 +127,7 @@ body {
 
 .navbar {
     display: flex;
-    align-items: center; /* Align navbar items vertically */
+    align-items: center;
     margin-top: 5vw;
     margin-right: 5%;
 }
@@ -135,7 +135,7 @@ body {
 .navbar a {
     margin: 0 10px;
     text-decoration: none;
-    font-size: 1.25vw; /* Set font size to 1.5% of viewport width */
+    font-size: 1.25vw;
     color: #1E1E1E;
 }
 
@@ -143,34 +143,54 @@ body {
     color: #764C97;
 }
 
+.dropdown {
+    position: relative; /* Ensure dropdown relative to its parent */
+}
+
+.dropdown-btn {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.25vw;
+    color: #1E1E1E;
+    text-decoration: none;
+}
+
+.dropdown-btn:hover {
+    color: #764C97;
+}
+
 .dropdown-content {
-    margin-top: 5px;
     display: none;
     position: absolute;
-    min-width: 160px;
+    top: 100%; /* Position dropdown below the button */
+    left: 0;
     z-index: 1;
+    min-width: 160px;
     text-align: left;
-    /* border: 1px solid #ccc; /* Add border */
 }
 
 .dropdown-content a {
     background-color: #BD9BD8;
+    color: white;
     display: block;
-    color: white; /* Change text color */
-    padding: 1vw;
-    margin-right: 90px;
-    margin-left: -1.75px;
+    padding: 10px;
     text-decoration: none;
 }
 
 .dropdown-content a:hover {
     background-color: #764C97;
-    color: white; /* Change text color on hover */
+    color: white;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 
 .indheader {
     font-size: 4vw;
