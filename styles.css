@@ -61,11 +61,11 @@ body {
 }
 
 #image1:hover {
-    background-image: url('landing/hover1.jpg'); 
+    background-image: url('landing/hover1.png'); 
 }
 
 #image2 {
-    background-image: url('landing/land4.jpg');
+    background-image: url('landing/land4.png');
 }
 
 #image2:hover {
@@ -81,15 +81,15 @@ body {
 }
 
 #image4 {
-    background-image: url('landing/landing2.jpg');
+    background-image: url('landing/landing2.png');
 }
 
 #image4:hover {
-    background-image: url('landing/hover4.jpg'); /* Image to show on hover */
+    background-image: url('landing/hover4.png'); /* Image to show on hover */
 }
 
 #image5 {
-    background-image: url('landing/land6.jpg');
+    background-image: url('landing/land6.png');
 }
 
 #image5:hover {
@@ -97,11 +97,11 @@ body {
 }
 
 #image6 {
-    background-image: url('landing/landing5.jpg');
+    background-image: url('landing/landing5.png');
 }
 
 #image6:hover {
-    background-image: url('landing/hover6.jpg'); /* Image to show on hover */
+    background-image: url('landing/hover6.png'); /* Image to show on hover */
 }
 
 .header {
@@ -123,12 +123,6 @@ body {
 
 .indtitle a:hover {
     color: #764C97;
-}
-
-.indfooter {
-    text-align: center;
-    font-size: 1vw;
-    margin-bottom: 5vw;
 }
 
 .navbar {
@@ -188,7 +182,7 @@ body {
 .rows {
     margin-left: 5vw;
     margin-right: 5vw;
-    margin-bottom: 5vw;
+    margin-bottom: 4vw;
     display: flex;
 }
 
@@ -256,4 +250,46 @@ body {
     transform: translate(-50%, -50%);
     max-width: 90%;
     max-height: 90%;
+}
+
+.indfooter {
+    font-size: 1vw;
+    margin-bottom: 4vw;
+    margin-top: 0px; /* Add some space between content and footer */
+    overflow: hidden; /* Clear floats */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space evenly between items */
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Allow items to wrap onto the next line if needed */
+}
+
+.leftfooter {
+    margin-left: 15vw;
+}
+
+.rightfooter {
+    margin-right: 15vw;
+    display: flex; /* Use flexbox for layout inside rightfooter */
+    flex-direction: column; /* Arrange items vertically */
+    margin-left: auto; /* Push right to the end */
+    text-align: right;
+}
+
+.rightfooter a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Text color */
+    margin: 0; /* Remove all margins */
+}
+
+.rightfooter p {
+    margin: 5px 0; /* Adjust vertical margin between paragraphs */
+}
+
+/* Optional: Adjust spacing between columns */
+.rightfooter + .rightfooter {
+    margin-left: 50px; /* Adjust as needed */
+}
+
+.rightfooter a:hover {
+    color: #764C97;
 }
