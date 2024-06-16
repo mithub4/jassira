@@ -254,7 +254,7 @@ body {
 
 .indfooter {
     font-size: 1vw;
-    margin-bottom: 4vw;
+    margin-bottom: 5vw;
     margin-top: 0px; /* Add some space between content and footer */
     overflow: hidden; /* Clear floats */
     display: flex; /* Use flexbox for layout */
