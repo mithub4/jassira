@@ -149,8 +149,7 @@ body {
 
 .dropdown-btn {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin: 0 10px;
     background: none;
     border: none;
     cursor: pointer;
