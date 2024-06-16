@@ -217,7 +217,7 @@ body {
 }
 
 .columns img:hover {
-    box-shadow: 0px 0px 15px rgba(3,3,3,0.25); /* Add shadow to dropdown */
+    box-shadow: 0px 0px 15px rgba(3,3,3,0.35); /* Add shadow to dropdown */
 }
 /* Style the lightbox */
 .lightbox {
